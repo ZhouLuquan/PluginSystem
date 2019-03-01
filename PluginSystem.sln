@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginSystem", "PluginSystem\PluginSystem.csproj", "{9DCD8FC6-05C0-4E5C-BA34-230296C9D539}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPlugin", "IPlugin\IPlugin.csproj", "{69ACEADA-BA56-4E71-A6E0-ABB8CF2B79F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editor", "Editor\Editor.csproj", "{C4858600-A4F1-47E1-A75C-251C1C89A80C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9DCD8FC6-05C0-4E5C-BA34-230296C9D539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DCD8FC6-05C0-4E5C-BA34-230296C9D539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DCD8FC6-05C0-4E5C-BA34-230296C9D539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69ACEADA-BA56-4E71-A6E0-ABB8CF2B79F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69ACEADA-BA56-4E71-A6E0-ABB8CF2B79F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69ACEADA-BA56-4E71-A6E0-ABB8CF2B79F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69ACEADA-BA56-4E71-A6E0-ABB8CF2B79F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4858600-A4F1-47E1-A75C-251C1C89A80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4858600-A4F1-47E1-A75C-251C1C89A80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4858600-A4F1-47E1-A75C-251C1C89A80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4858600-A4F1-47E1-A75C-251C1C89A80C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

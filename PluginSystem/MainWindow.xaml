@@ -4,9 +4,33 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PluginSystem"
+        xmlns:avalonDock="http://schemas.xceed.com/wpf/xaml/avalondock"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Name="mainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Menu Name="menu" Grid.Row="0" Height="Auto" VerticalAlignment="Top" FontSize="14">
+            <MenuItem Header="文件"/>
+
+            <MenuItem Name="menuItem_Plugins" Header="插件"/>
+        </Menu>
+
+        <avalonDock:DockingManager Grid.Row="1">
+            <avalonDock:LayoutRoot>
+                <avalonDock:LayoutPanel Orientation = "Horizontal" >
+                    <avalonDock:LayoutAnchorablePane x:Name="anchorablePane" DockWidth="256"/>
+
+                    <avalonDock:LayoutDocumentPane x:Name="documentPane">
+                        <avalonDock:LayoutDocument Title="23333333">
+                            <TextBox/>
+                        </avalonDock:LayoutDocument>
+                    </avalonDock:LayoutDocumentPane>
+                </avalonDock:LayoutPanel>
+            </avalonDock:LayoutRoot>
+        </avalonDock:DockingManager>
     </Grid>
 </Window>
